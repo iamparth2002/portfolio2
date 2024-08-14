@@ -25,7 +25,7 @@ export function SkillCard({
   return (
     <Card
       className={
-        "flex flex-col items-center justify-center overflow-hidden cursor-pointer transition-all duration-300 ease-out h-30 w-30 p-1"
+        "flex flex-col items-center hover:scale-105 justify-center overflow-hidden  transition-all duration-300 ease-out h-30 w-30 p-1"
       }
     >
 

@@ -267,7 +267,7 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "AI Resume Builder",
+      title: "SmartCV",
       href: "https://ai-resume-builder-project.vercel.app/",
       dates: "March 2024 - April 2024",
       active: true,
@@ -294,9 +294,69 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/smartCV.png",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+        "",
+    },
+    {
+      title: "Promptopia",
+      href: "https://promptopia-project-app.vercel.app/",
+      dates: "July 2023 - August 2023",
+      active: true,
+      description:
+        "Developed an AI-prompting tool providing users with a platform for prompt sharing.",
+      technologies: [
+        "Next.js",
+        "Next Auth",
+        "TailwindCSS",
+        "MongoDB",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://promptopia-project-app.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/iamparth2002/promptopia-app",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/promptopia.png",
+      video: ""
+      // video: "https://cdn.magicui.design/bento-grid.mp4",
+    },
+    {
+      title: "RemindMe",
+      href: "https://remind-me-project.vercel.app/",
+      dates: "July 2023 - August 2023",
+      active: true,
+      description:
+        "RemindMe is a task management system designed to help you stay organized and productive with an intuitive UI and seamless user authentication.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+        "Prisma",
+        "PostgreSQL",
+        "Shadcn UI"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://remind-me-project.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/iamparth2002/remindMe",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/remindMe.png",
+      video: ""
+      // video: "https://cdn.magicui.design/bento-grid.mp4",
     },
     {
       title: "Cloud Nova",
@@ -332,12 +392,44 @@ export const DATA = {
       // video: "https://cdn.magicui.design/bento-grid.mp4",
     },
     {
+      title: "FinanSmart",
+      href: "https://finansmart-app.vercel.app/",
+      dates: "August 2024 - Present",
+      active: true,
+      description:
+        "FinanSmart leverages AI to help you manage expenses within budget allocations. Track spending, get personalized insights, and optimize your financial decisions effortlessly.",
+      technologies: [
+        "Next.js",
+        "Drizzle",
+        "PostgreSQL",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Gemini AI",
+        "Framer Motion",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://finansmart-app.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/iamparth2002/FinanSmart",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/finanSmart.png",
+      video: ""
+      // video: "https://cdn.magicui.design/bento-grid.mp4",
+    },
+    {
       title: "Schedule",
       href: "",
       dates: "July 2024 - August 2024",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        "Schedule simplifies scheduling by appointment bookings and providing an easy interface for setting up meetings.",
       technologies: [
         "Next.js",
         "Typescript",

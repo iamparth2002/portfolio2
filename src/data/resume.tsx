@@ -419,7 +419,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/finanSmart.png",
+      image: "/finansmart.png",
       video: ""
       // video: "https://cdn.magicui.design/bento-grid.mp4",
     },

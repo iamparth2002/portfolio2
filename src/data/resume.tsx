@@ -267,9 +267,38 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Promptopia",
+      href: "https://promptopia-project-app.vercel.app/",
+      dates: "November 2023 - December 2023",
+      active: true,
+      description:
+        "Developed an AI-prompting tool providing users with a platform for prompt sharing.",
+      technologies: [
+        "Next.js",
+        "Next Auth",
+        "TailwindCSS",
+        "MongoDB",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://promptopia-project-app.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/iamparth2002/promptopia-app",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/promptopia.png",
+      video: ""
+      // video: "https://cdn.magicui.design/bento-grid.mp4",
+    },
+    {
       title: "SmartCV",
       href: "https://ai-resume-builder-project.vercel.app/",
-      dates: "March 2024 - April 2024",
+      dates: "December 2023 - January 2024",
       active: true,
       description:
         "Developed an AI-powered Resume Builder application enabling users to add information dynamically with AI assistance.",
@@ -299,69 +328,9 @@ export const DATA = {
         "",
     },
     {
-      title: "Promptopia",
-      href: "https://promptopia-project-app.vercel.app/",
-      dates: "July 2023 - August 2023",
-      active: true,
-      description:
-        "Developed an AI-prompting tool providing users with a platform for prompt sharing.",
-      technologies: [
-        "Next.js",
-        "Next Auth",
-        "TailwindCSS",
-        "MongoDB",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://promptopia-project-app.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/iamparth2002/promptopia-app",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/promptopia.png",
-      video: ""
-      // video: "https://cdn.magicui.design/bento-grid.mp4",
-    },
-    {
-      title: "RemindMe",
-      href: "https://remind-me-project.vercel.app/",
-      dates: "July 2023 - August 2023",
-      active: true,
-      description:
-        "RemindMe is a task management system designed to help you stay organized and productive with an intuitive UI and seamless user authentication.",
-      technologies: [
-        "Next.js",
-        "TypeScript",
-        "TailwindCSS",
-        "Prisma",
-        "PostgreSQL",
-        "Shadcn UI"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://remind-me-project.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/iamparth2002/remindMe",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/remindMe.png",
-      video: ""
-      // video: "https://cdn.magicui.design/bento-grid.mp4",
-    },
-    {
       title: "Cloud Nova",
       href: "https://cloudnova-project.vercel.app/",
-      dates: "June 2023 - Present",
+      dates: "June 2024 - July 2024",
       active: true,
       description:
         "CloudNova is a cloud storage and file-sharing platform that lets you easily share files with anyone via email or a link through your favorite social media accounts.",
@@ -391,6 +360,38 @@ export const DATA = {
       video: ""
       // video: "https://cdn.magicui.design/bento-grid.mp4",
     },
+    {
+      title: "RemindMe",
+      href: "https://remind-me-project.vercel.app/",
+      dates: "June 2024 - July 2024",
+      active: true,
+      description:
+        "RemindMe is a task management system designed to help you stay organized and productive with an intuitive UI and seamless user authentication.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+        "Prisma",
+        "PostgreSQL",
+        "Shadcn UI"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://remind-me-project.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/iamparth2002/remindMe",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/remindMe.png",
+      video: ""
+      // video: "https://cdn.magicui.design/bento-grid.mp4",
+    },
+    
     {
       title: "FinanSmart",
       href: "https://finansmart-app.vercel.app/",
@@ -425,7 +426,7 @@ export const DATA = {
     },
     {
       title: "Schedule",
-      href: "",
+      href: "https://schedule-nine-xi.vercel.app/",
       dates: "July 2024 - August 2024",
       active: true,
       description:
@@ -440,12 +441,12 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "",
+          href: "https://schedule-nine-xi.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "",
+          href: "https://github.com/iamparth2002/schedule",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -456,7 +457,7 @@ export const DATA = {
     {
       title: "Pickup Line generator",
       href: "https://pickup-line-generator-ruby.vercel.app/",
-      dates: "April 2023 - March 2024",
+      dates: "March 2024 - April 2024",
       active: true,
       description:
         "This fun tool generates witty and creative pickup lines using AI, perfect for breaking the ice or just having a laugh.",
